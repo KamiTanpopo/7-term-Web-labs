@@ -1,0 +1,98 @@
+body {
+    padding: 15px 15px 15px 15px;
+    height: 100%;
+}
+form{
+    background-color: rgb(228, 228, 228);
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 0.5rem;
+    height: 55%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#form_part1, #form_part3{
+    text-align: center;
+    padding-bottom: 5%;
+    width: 100%;
+}
+#form_part2{
+    width: 100%;
+}
+#form_part3{
+    padding-top: 5%;
+}
+.field{
+    padding-bottom: 2%;
+    display: flex;
+}
+.field label{
+    width: 40%;
+    margin-left: 8%;
+}
+.field input{
+    width: 60%;
+    margin-right: 8%;
+}
+button{
+    background-color:#9492ff; 
+    border:2px solid #516364;
+    height: 35px;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#7f7dfd; 
+}
+button:active{
+    background-color:#5957d0; 
+    border:2px solid #1b1b1b;
+}
+#response-block {
+    background-color:#cecdff;
+    border-radius: 0.5rem;
+    width: 20%;
+    margin: 2% 40% 0% 40%;
+    padding: 5px 5px 20px 5px;
+    text-align: center;
+    display: none;
+}
+.value-field{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.value-title{
+    padding-left: 15%;
+}
+.value-data{
+    
+    padding-right: 15%;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#t2{
+    width: 20%;
+    margin: 2% 40% 0% 40%;
+}
+#t2 button{
+    margin-right: 10px;
+}
+#color{
+    width: 132px;
+    height: 30px;
+    border-radius: 0.25rem;
+}
+tr,td{
+    border:1.5px solid #516364;
+    padding:10px;
+    cursor: pointer;
+}
+    

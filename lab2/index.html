@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Лаб 2 Клеба О.А.</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- TASK 1 -->
+        <form onsubmit="return validateForm()">
+            <h2 id="form_part1">Форма для заповнення</h2>
+            <div id="form_part2">
+                <div class="field">
+                    <label for="name">ПІБ:</label>
+                    <input type="text" id="name" name="user_name" placeholder='ТТТТТТ Т.Т.'>
+                </div>
+                <div class="field">
+                    <label for="IDcard">ID-card:</label>
+                    <input type="text" id="IDcard" name="user_IDcard" placeholder='ТТ №ЧЧЧЧЧЧ'>
+                </div>
+                <div class="field">
+                    <label for="faculty">Факультет:</label>
+                    <input type="text" id="faculty" name="user_faculty" placeholder='TTTT'>
+                </div>
+                <div class="field">
+                    <label for="birthdate">Дата народження:</label>
+                    <input type="text" id="birthdate" name="user_birthDate" placeholder='ЧЧ.ЧЧ.ЧЧЧЧ'>
+                </div>
+                <div class="field">
+                    <label for="address">Адреса:</label>
+                    <input type="text" id="address" name="user_address" placeholder='м. TTTTT'>
+                </div>
+            </div>
+            <div id="form_part3">
+                <button>Підтвердити</button>
+            </div>
+        </form>
+
+        <div id="response-block">
+            <h3> Введені дані</h3>
+            <div class="value-field">
+                <div class="value-title">ПІБ:</div>
+                <div class="value-data" id="name-value"></div>
+            </div>
+            <div class="value-field">
+                <div class="value-title">ID-card: </div>
+                <div class="value-data" id="IDcard-value"></div>
+            </div>
+            <div class="value-field">
+                <div class="value-title">Факультет: </div>
+                <div class="value-data" id="faculty-value"></div>
+            </div>
+            <div class="value-field">
+                <div class="value-title">Дата народження: </div>
+                <div class="value-data" id="birthdate-value"></div>
+            </div>
+            <div class="value-field">
+                <div class="value-title">Адреса: </div>
+                <div class="value-data" id="address-value"></div>
+            </div>
+        </div>
+
+        <hr>
+        <!-- TASK 2 -->
+        <div id="t2">
+            <table>
+                <button onclick="createTable()" >Create Table</button>
+                <input type="color" id="color">
+            </table>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
